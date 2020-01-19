@@ -6,5 +6,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/brunel_university"
+        android:layout_alignParentTop="true">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/ProjectLogo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/project_logo">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/writing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/writing"
+        android:layout_below="@id/ProjectLogo"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:layout_below="@id/writing"
+        android:layout_toLeftOf="@id/center">
+    </Button>
+
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/writing"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_below="@id/writing"
+        android:layout_toRightOf="@id/center">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:layout_alignParentBottom="true">
+    </Button>
 
 </RelativeLayout>
