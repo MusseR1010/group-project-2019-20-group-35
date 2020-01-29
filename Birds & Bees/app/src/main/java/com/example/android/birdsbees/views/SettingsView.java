@@ -1,14 +1,16 @@
-package com.example.android.birdsbees;
+package com.example.android.birdsbees.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Registration extends AppCompatActivity {
+import com.example.android.birdsbees.R;
+
+public class SettingsView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
+        setContentView(R.layout.activity_settings_view);
     }
 }

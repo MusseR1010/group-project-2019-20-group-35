@@ -35,7 +35,9 @@
         android:layout_height="wrap_content"
         android:text="@string/sign_in"
         android:layout_below="@id/writing"
-        android:layout_toLeftOf="@id/center">
+        android:layout_toLeftOf="@id/center"
+        android:onClick="openLogin">
+
     </Button>
 
     <TextView
