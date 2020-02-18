@@ -3,4 +3,16 @@
     <string name="sign_in">Sign in</string>
     <string name="register">Register</string>
     <string name="back">Back</string>
+    <string name="survey_1">Survey 1</string>
+    <string name="next">NEXT</string>
+    <string name="getting_to_now_you">Getting to now you ....</string>
+    <string name="hot_beach">Hot/beach</string>
+    <string name="city_breaks">City breaks</string>
+    <string name="nature">Nature</string>
+    <string name="skiing">Skiing</string>
+    <string name="what_type_of_holiday_do_you_enjoy_most">what type of holiday do you enjoy most?</string>
+    <string name="see_with_mood">See with mood</string>
+    <string name="go_with_the_flow">Go with the flow</string>
+    <string name="systematic">Systematic</string>
+    <string name="what_s_your_approach_to_planning_things">what\'s your approach to planning things?</string>
 </resources>
