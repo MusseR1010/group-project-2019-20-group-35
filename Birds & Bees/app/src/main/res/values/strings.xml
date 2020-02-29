@@ -24,4 +24,10 @@
     <string name="ambition">Ambition</string>
     <string name="humour">Humour</string>
     <string name="confidence">Confidence</string>
+    <string name="sports_activities">Sports activities</string>
+    <string name="socialising">Socialising</string>
+    <string name="working">Working</string>
+    <string name="at_home">At home</string>
+    <string name="where_do_you_like_to_spend_your_free_time">Where do you like to spend your free time?</string>
+    <string name="submit">SUBMIT</string>
 </resources>
