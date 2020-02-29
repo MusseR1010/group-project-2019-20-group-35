@@ -16,5 +16,10 @@ public class ChatView extends AppCompatActivity {
         setContentView(R.layout.activity_chat_view);
     }
 
+    public void openAllChat(View view) {
+        Intent intent = new Intent(this, AllChatsView.class);
+        startActivity(intent);
+    }
+
 
 }
