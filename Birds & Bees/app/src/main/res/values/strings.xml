@@ -26,4 +26,13 @@
     <string name="go_with_the_flow">Go with the flow</string>
     <string name="see_with_mood">See with mood</string>
     <string name="next">Next</string>
+    <string name="depends_on_the_day">Depends on the day</string>
+    <string name="are_you_a_morning_or_night_person">Are you a morning or night person?</string>
+    <string name="morning">Morning</string>
+    <string name="night_owl">Night owl</string>
+    <string name="what_quality_matters_the_most">What quality matters the most?</string>
+    <string name="optimism">Optimism</string>
+    <string name="ambition">Ambition</string>
+    <string name="humour">Humour</string>
+    <string name="confidence">Confidence</string>
 </resources>
