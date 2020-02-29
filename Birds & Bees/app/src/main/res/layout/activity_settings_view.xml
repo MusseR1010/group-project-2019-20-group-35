@@ -16,7 +16,7 @@
         android:layout_marginEnd="75dp"
         android:layout_marginBottom="363dp"
         android:backgroundTint="#FFFFFF"
-        android:text="Deactivate Account" />
+        android:text="@string/deactivate_account" />
 
     <Button
         android:id="@+id/button6"
@@ -27,7 +27,7 @@
         android:layout_marginEnd="75dp"
         android:layout_marginBottom="419dp"
         android:backgroundTint="#FFFFFF"
-        android:text="Change Password" />
+        android:text="@string/change_password" />
 
     <ImageView
         android:id="@+id/userImage10"
@@ -54,7 +54,7 @@
         android:layout_marginEnd="145dp"
         android:layout_marginBottom="272dp"
         android:backgroundTint="#111C5F"
-        android:text="UPDATE"
+        android:text="@string/update"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
@@ -67,7 +67,7 @@
         android:layout_marginEnd="75dp"
         android:layout_marginBottom="473dp"
         android:backgroundTint="#FFFFFF"
-        android:text="Blocked Accounts" />
+        android:text="@string/blocked_accounts" />
 
     <Button
         android:id="@+id/button8"

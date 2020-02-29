@@ -51,4 +51,8 @@
     <string name="chat_7">Chat 7</string>
     <string name="chat_8">Chat 8</string>
     <string name="chat_9">Chat 9</string>
+    <string name="deactivate_account">Deactivate Account</string>
+    <string name="blocked_accounts">Blocked Accounts</string>
+    <string name="change_password">Change Password</string>
+    <string name="update">UPDATE</string>
 </resources>
