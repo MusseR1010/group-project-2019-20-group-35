@@ -15,4 +15,15 @@
     <string name="todo">todo</string>
     <string name="email">Email:</string>
     <string name="log_in">Log In</string>
+    <string name="whats_oyur_approch_to_planning_things">Whats oyur approch to planning things?</string>
+    <string name="getting_to_know_you">Getting to know you</string>
+    <string name="what_type_of_holiday_do_you_enjoy_most">What type of holiday do you enjoy most?</string>
+    <string name="hot_beach">Hot beach</string>
+    <string name="skiing">Skiing</string>
+    <string name="nature">Nature</string>
+    <string name="city_breaks">City Breaks</string>
+    <string name="systematic">Systematic</string>
+    <string name="go_with_the_flow">Go with the flow</string>
+    <string name="see_with_mood">See with mood</string>
+    <string name="next">Next</string>
 </resources>

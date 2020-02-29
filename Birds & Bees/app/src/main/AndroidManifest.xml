@@ -16,7 +16,6 @@
         <activity android:name=".views.AllChatsView" />
         <activity android:name=".views.HomeView" />
         <activity android:name=".views.LoginView" />
-        <activity android:name=".views.SurveyFourthView" />
         <activity android:name=".views.SurveyThirdView" />
         <activity android:name=".views.SurveySecondView" />
         <activity android:name=".views.SurveyFirstView" />
