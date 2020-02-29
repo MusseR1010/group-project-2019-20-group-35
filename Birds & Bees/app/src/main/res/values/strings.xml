@@ -41,4 +41,14 @@
     <string name="working">Working</string>
     <string name="at_home">At home</string>
     <string name="submit">SUBMIT</string>
+    <string name="chat_1">Chat 1</string>
+    <string name="messages">Messages</string>
+    <string name="chat_2">Chat 2</string>
+    <string name="chat_3">Chat 3</string>
+    <string name="chat_4">Chat 4</string>
+    <string name="chat_5">Chat 5</string>
+    <string name="chat_6">Chat 6</string>
+    <string name="chat_7">Chat 7</string>
+    <string name="chat_8">Chat 8</string>
+    <string name="chat_9">Chat 9</string>
 </resources>

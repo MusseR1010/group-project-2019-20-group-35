@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,25 +7,292 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <Button
+        android:id="@+id/chat8"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="openChat"
+        android:text="@string/chat_8"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5" />
+
+    <ImageView
+        android:id="@+id/userImage9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="567dp"
+        android:layout_marginEnd="342dp"
+        android:layout_marginBottom="97dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/profile"></ImageView>
+
+    <Button
+        android:id="@+id/chat7"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="167dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="openChat"
+        android:text="@string/chat_7"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5" />
+
+    <ImageView
+        android:id="@+id/userImage8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="169dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/profile"></ImageView>
+
+    <Button
+        android:id="@+id/chat6"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="237dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="openChat"
+        android:text="@string/chat_6"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5" />
+
+    <ImageView
+        android:id="@+id/userImage7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="342dp"
+        android:layout_marginBottom="239dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/profile"></ImageView>
+
+    <Button
+        android:id="@+id/chat5"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="307dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="openChat"
+        android:text="@string/chat_5"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5" />
+
+    <ImageView
+        android:id="@+id/userImage6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="342dp"
+        android:layout_marginBottom="309dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/profile"></ImageView>
+
+    <Button
+        android:id="@+id/chat4"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="378dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="openChat"
+        android:text="@string/chat_4"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5" />
+
+    <ImageView
+        android:id="@+id/userImage5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="380dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/profile"></ImageView>
+
+    <Button
+        android:id="@+id/chat3"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="450dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="openChat"
+        android:text="@string/chat_3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5" />
+
+    <ImageView
+        android:id="@+id/userImage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="452dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/profile"></ImageView>
+
+    <Button
+        android:id="@+id/chat2"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="523dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="openChat"
+        android:text="@string/chat_2"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5" />
+
+    <ImageView
+        android:id="@+id/userImage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="525dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/profile"></ImageView>
+
+    <ImageView
+        android:id="@+id/userImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="596dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/profile"></ImageView>
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/title3"
+        android:layout_width="111dp"
         android:layout_height="wrap_content"
-        android:text="All Chats" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="678dp"
+        android:text="@string/messages"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textSize="20sp" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="664dp"
+        android:background="#00FFFFFF" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/back2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CHAT 1"
-        android:onClick="openChat"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="7dp"
+        android:onClick="openHome"
+        android:text="@string/back" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CHAT 2"/>
+        android:id="@+id/chat18"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="594dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="openChat"
+        android:text="@string/chat_1"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CHAT 3"/>
-
-</LinearLayout>
+</RelativeLayout>

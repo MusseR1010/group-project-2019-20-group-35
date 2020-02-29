@@ -20,4 +20,9 @@ public class AllChatsView extends AppCompatActivity {
         Intent intent = new Intent(this, ChatView.class);
         startActivity(intent);
     }
+
+    public void openHome(View view) {
+        Intent intent = new Intent(this, HomeView.class);
+        startActivity(intent); }
+
 }

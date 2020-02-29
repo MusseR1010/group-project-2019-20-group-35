@@ -2,7 +2,9 @@ package com.example.android.birdsbees.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.android.birdsbees.R;
 
@@ -13,4 +15,6 @@ public class ChatView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_view);
     }
+
+
 }
