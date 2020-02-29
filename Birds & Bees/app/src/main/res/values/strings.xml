@@ -3,4 +3,25 @@
     <string name="sign_in">Sign in</string>
     <string name="register">Register</string>
     <string name="back">Back</string>
+    <string name="whats_your_approach_to_planning_things">Whats your approach to planning things?</string>
+    <string name="getting_to_know_you">Getting to know you</string>
+    <string name="what_type_of_holiday_do_you_enjoy_most">What type of holiday do you enjoy most?</string>
+    <string name="hot_beach">Hot beach</string>
+    <string name="skiing">Skiing</string>
+    <string name="nature">Nature</string>
+    <string name="city_breaks">City breaks</string>
+    <string name="systematic">Systematic</string>
+    <string name="go_with_the_flow">Go with the flow</string>
+    <string name="see_with_mood">See with mood</string>
+    <string name="next">NEXT</string>
+    <string name="depends_on_the_day">Depends on the day</string>
+    <string name="getting_to_know_you">Getting to know you</string>
+    <string name="are_you_a_morning_or_night_person">Are you a morning or night person?</string>
+    <string name="morning">Morning</string>
+    <string name="night_owl">Night owl</string>
+    <string name="what_quality_matters_the_most">What quality matters the most?</string>
+    <string name="optimisim">Optimisim</string>
+    <string name="ambition">Ambition</string>
+    <string name="humour">Humour</string>
+    <string name="confidence">Confidence</string>
 </resources>
