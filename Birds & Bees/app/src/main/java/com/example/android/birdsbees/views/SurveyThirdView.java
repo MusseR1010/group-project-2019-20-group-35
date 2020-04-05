@@ -16,8 +16,8 @@ public class SurveyThirdView extends AppCompatActivity {
         setContentView(R.layout.activity_survey_third_view);
     }
 
-    public void Homepage(View view) {
-            Intent intent = new Intent(this, HomeView.class);
+    public void openFourthSurvey(View view) {
+            Intent intent = new Intent(this, SurveyFourthView.class);
             startActivity(intent);
     }
 }

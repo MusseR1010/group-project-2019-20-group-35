@@ -1,21 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.SurveyFirstView"
-    android:orientation="vertical"
-    android:gravity="center">
+    tools:context=".views.SurveyFirstView" >
+
+    <EditText
+        android:id="@+id/planQ"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="343dp"
+        android:autofillHints="test"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/whats_your_approach_to_planning_things"
+        android:textSize="20sp"
+        tools:ignore="LabelFor" />
+
+    <CheckBox
+        android:id="@+id/PlanCheckBox1"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="309dp"
+        android:text="@string/systematic"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/planCheckBox2"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="277dp"
+        android:text="@string/go_with_the_flow"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/planCheckBox3"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="243dp"
+        android:text="@string/see_with_mood"
+        android:textSize="20sp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/title"
+        android:layout_width="308dp"
         android:layout_height="wrap_content"
-        android:text="Survey 1" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="646dp"
+        android:text="@string/getting_to_know_you"
+        android:textColor="#191F38"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/holidayQ"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="578dp"
+        android:autofillHints="test"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/what_type_of_holiday_do_you_enjoy_most"
+        android:textSize="20sp"
+        tools:ignore="LabelFor" />
+
+    <CheckBox
+        android:id="@+id/HolidayCheckBox2"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="518dp"
+        android:text="@string/skiing"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/HolidayCheckBox3"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="486dp"
+        android:text="@string/nature"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/HolidayCheckBox4"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="454dp"
+        android:text="@string/city_breaks"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/HolidayCheckBox1"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="550dp"
+        android:text="@string/hot_beach"
+        android:textSize="20sp" />
 
     <Button
+        android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NEXT"
-        android:onClick="openSecondSurvey"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:onClick="openSecondSurvey"
+        android:text="@string/next" />
 
-</LinearLayout>
+</RelativeLayout>

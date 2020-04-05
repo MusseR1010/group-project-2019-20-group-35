@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,147 +7,15 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <CheckBox
-        android:id="@+id/CheckBox3"
-        android:layout_width="335dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="54dp"
-        android:layout_marginBottom="484dp"
-        android:text="@string/depends_on_the_day"
-        android:textSize="20sp" />
-
-    <CheckBox
-        android:id="@+id/CheckBox7"
-        android:layout_width="335dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="209dp"
-        android:text="@string/confidence"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/Q4"
-        android:layout_width="371dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="343dp"
-        android:autofillHints="test"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/what_quality_matters_the_most"
-        android:textSize="20sp"
-        tools:ignore="LabelFor" />
-
-    <CheckBox
-        android:id="@+id/CheckBox4"
-        android:layout_width="335dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="309dp"
-        android:text="@string/optimism"
-        android:textSize="20sp" />
-
-    <CheckBox
-        android:id="@+id/CheckBox5"
-        android:layout_width="335dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="277dp"
-        android:text="@string/ambition"
-        android:textSize="20sp" />
-
-    <CheckBox
-        android:id="@+id/CheckBox6"
-        android:layout_width="335dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="243dp"
-        android:text="@string/humour"
-        android:textSize="20sp" />
-
     <TextView
-        android:id="@+id/title"
-        android:layout_width="308dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="646dp"
-        android:text="@string/getting_to_know_you"
-        android:textColor="#191F38"
-        android:textSize="25sp" />
-
-    <EditText
-        android:id="@+id/Q3"
-        android:layout_width="371dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="94dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="578dp"
-        android:autofillHints="test"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/are_you_a_morning_or_night_person"
-        android:textSize="20sp"
-        tools:ignore="LabelFor" />
-
-    <CheckBox
-        android:id="@+id/CheckBox2"
-        android:layout_width="335dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="518dp"
-        android:text="@string/night_owl"
-        android:textSize="20sp" />
-
-    <CheckBox
-        android:id="@+id/CheckBox1"
-        android:layout_width="335dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="550dp"
-        android:text="@string/morning"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="6dp"
-        android:layout_marginBottom="6dp"
-        android:onClick="openThirdSurvey"
-        android:text="@string/next" />
+        android:text="Survey 2" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:onClick="openThirdSurvey"/>
 
-</RelativeLayout>
+</LinearLayout>
