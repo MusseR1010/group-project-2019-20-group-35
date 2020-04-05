@@ -43,4 +43,12 @@
     <string name="compatibility">Compatibility: %</string>
     <string name="todo">TODO</string>
     <string name="todo">TODO</string>
+    <string name="twitter_https_twitter_com_explore">Twitter - https://twitter.com/explore</string>
+    <string name="instagram_https_www_instagram_com">instagram - https://www.instagram.com/</string>
+    <string name="deactivate_account">deactivate account</string>
+    <string name="blocked_accounts">blocked accounts</string>
+    <string name="change_password">change password</string>
+    <string name="update">update</string>
+    <string name="share">share</string>
+    <string name="facebook_https_en_gb_facebook_com">facebook - https://en-gb.facebook.com/</string>
 </resources>
